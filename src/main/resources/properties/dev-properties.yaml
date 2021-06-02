@@ -1,0 +1,14 @@
+keystore:
+   path: "keystore.p12"
+   alias: "mule"
+   keyPassword: "mulepass"
+   password: "mulepass"
+    
+https:
+  port: "8082"
+
+  storage:
+    host: "storage.googleapis.com" 
+    bucketName: "bucket-name"    
+
+apiId: "-1"

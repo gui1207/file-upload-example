@@ -1,0 +1,11 @@
+#%RAML 1.0
+title: file-upload
+
+/upload:
+    description: Realiza upload de anexos
+    post:
+      body:
+        multipart/form-data:
+          type: file[]
+      responses:
+        200:
